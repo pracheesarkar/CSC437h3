@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(170, 170, 233);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100hv;
+}
+
+.container{
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.action {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.action2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+
+    
+}
+
+.button1:hover{
+    color: white;
+}
+
+#add-row{
+    background-color: rgb(220, 242, 242);
+    border: 2px solid black;
+    padding:10px;
+    margin: 5px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#reset {
+    background-color: rgb(220, 242, 242);
+    border: 2px solid black;
+    padding:10px;
+    width: 100%;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#calculate {
+    background-color: rgb(211, 232, 232);
+    border: 2px solid black;
+    padding:10px;
+    width: 100%;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#gpa {
+    padding: 10px;
+    margin:5px;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 500px;
+    border: black;
+}
+
+th {
+    border: none;
+    text-align: left;
+    padding: 8px;
+  }
+
+td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+  }
+
+tr {
+    display: table-row;
+    border-top: 1px solid black;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: black;
+
+}
+
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: black;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=text2] {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
